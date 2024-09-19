@@ -1,0 +1,45 @@
+@font-face{font-family:open sans;font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url("") format("woff")}@font-face{font-family:open sans;font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url("") format("woff")}@font-face{font-family:open sans;font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url("") format("woff")}@font-face{font-family:open sans;font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url("mem5YaGs126MiZpBA-UN7rgOUuhv.woff") format("woff")}
+
+body {background-color: black;
+}
+
+/* bottom nav */
+.btm-nav {
+  overflow: hidden;
+  background-color: #F324B4;
+  position:fixed;
+  bottom: 0;
+    width: 98%;
+    max-width: 440px;
+  padding:10px;
+    text-align: center;
+    color:white;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    margin:1%;
+    z-index: 99999;
+
+}
+
+.btm-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration:none;
+    font-size: 16px;
+    font-weight: 600;
+  display: inline-block;
+  margin: 4px 5px;
+  cursor: pointer;
+   border-radius: 8px;
+    border:1px solid #ffffff; 
+}
+
+.btm-nav-table {margin:0px; width:100%;color:white;}
+
+#cdtimexx {
+  color: yellow;
+  font-size:16px;
+}
